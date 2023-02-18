@@ -1,0 +1,30 @@
+1.	I have created Stopwatch using React. It shows the time in second and millisecond.
+Description
+•	This app is having two buttons ‘Start’ and ‘Reset’. Once I click on start button, stopwatch start showing time in second and milli second. Start button will be replaced with stop button.
+•	Once I click on stop button, stopwatch will stop and stop button will be replaced with start button. Once I click on start again, stopwatch will continue from where it stopped last.
+•	Reset button will reset the time to 0s and 00 ms.
+•	I decided to start with three states - start, stop and time
+•	There are three functions - handleStart, handleStop and handleReset. On click of any button will change the state to show hide the button.
+•	In useEffect, on change of start and stop state will be updating time state to show the time in sec and milli sec.
+•	From App.jsx, will be calling ‘StopWatch’ component.
+•	From StopWatch.jsx, will be calling ‘Timer’ to show time in sec and millisec and ‘Button’ component to show different buttons.
+•	Attached the code – App.tsx, StopWatch.tsx, Time.tsx, Button.tsx
+
+2.	I had written project overview for one of my projects. It tells the journey of how different UI screens are interacting. Also created technical design diagram where it tells the different UI screens and which UI screen was interacting with which backend endpoint. I have also created README file. I am adding documentation for README file for Basic React project.
+
+3.	I have worked on web application mostly using React and Angular. My role is converting the UX into UI using HTML, CSS, Bootstrap, writing the component logic in React or Angular, integrating the endpoints developed in Java/NodeJS or any backend. Once component integration is done will do the developer’s testing for the component/module worked.
+
+4.	Technical Challenges faced.
+•	Memory leaks – Resolved using unmounting/unsubscribing the components.
+•	High loading time – Resolved using code splitting, Server side Rendering
+•	Performance issues – Implemented ShouldComponentUpdate lifecycle hook and pure components
+
+5.	Interpersonal conflicts happen in team. I had resolved those using.
+•	Communication and listening to other persons view point and concluding to the mutual agreement.
+•	Showing empathy for others.
+
+6.	Yes, if got the opportunity I can work in Montreal timings.
+
+
+
+
